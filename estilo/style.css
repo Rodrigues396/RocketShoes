@@ -1,0 +1,160 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    --button: #FF0000;
+    --main-background:  #C4C4C4;
+    --background: #E5E5E5;
+    --text: #000;
+    --footer: #000;
+    --text-description: #9C9696;
+  }
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto';
+}
+body{
+    background-color: #E5E5E5;;
+}
+nav{
+    margin: auto;
+
+    height: 48px;
+    margin: 39px 60px 0px 60px;
+}
+.logo{  
+    width: 52px;
+    height: 36.4px;
+    margin-right: 114px;
+}
+nav > ul{
+    display: inline-block;
+    position: absolute;
+    top: 42px;
+}
+nav > ul > li{   
+    display: inline-block;
+    margin-right: 90px;   
+}
+nav > ul > li > p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;  
+}
+#search{ 
+    width: 220px;
+    height: 45px;
+
+    display: inline-block;
+    position: absolute;
+    top: 42px;
+    right: 260px;
+
+    padding-left: 40px;
+}
+.search{
+    display: inline-block;
+
+    width: 34px;
+    height: 34px;
+
+    position: absolute;
+    top: 55px;
+    right: 440px;
+}
+.carrinho{
+    display: inline-block;
+
+    width: 34px;
+    height: 34px;
+
+    position: absolute;
+    top: 47px;
+    right: 160px;
+}
+/* --------------------------------------------------------- */
+main{
+    position: absolute;
+    width: 865px;
+    height: 690px;
+    left: 500px;
+    top: 0px;
+
+    background: #C4C4C4;
+}
+.tenisAmpliado{
+    position: absolute;
+    width: 597px;
+    height: 450px;
+    right: 146px;
+    top: 100px;
+}
+.opTenis{
+    display: inline-block;
+    width: 860px;
+    height: 150px;
+
+    position: absolute;
+    bottom: 0px;
+}
+.tenis{
+    display: inline-block;
+    width: 200px;
+    height: 150px;
+    margin-left: 60px;
+}
+.tenis:hover{
+    background-color: #FF0000;;
+}
+.tenis > img{
+    width: 201px;
+    height: 140px;
+
+    position: absolute;
+    top: -1px;
+}
+.preco{
+    position: absolute;
+    width: 357px;
+    height: 420px;
+    left: 65px;
+    top: 120px;
+}
+.preco > h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700; 
+    font-size: 50px;
+    line-height: 60px; 
+}
+.preco > h2{
+    margin-top: 25px;
+}
+.preco > p{
+    margin-top: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+
+    color: #9C9696;
+}
+.comprar{
+    margin-top: 16px;
+    width: 260px;
+    height: 70px;
+    background-color: #FF0000;
+}
+.comprar > p{
+    padding-top: 20px;
+    text-align: center;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+}
