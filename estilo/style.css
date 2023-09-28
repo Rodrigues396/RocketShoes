@@ -17,6 +17,20 @@
 body{
     background-color: #E5E5E5;;
 }
+main{
+    position: absolute;
+    width: 1340px;
+    height: 610px;
+    border: 2px solid #C4C4C4;
+    z-index: 1;
+}
+.main-compar{   
+    display: none;
+    width: 1340px;
+    height: 610px;
+    background-color: aqua;
+    z-index: 2;
+}
 nav{
     margin: auto;
 
@@ -74,52 +88,72 @@ nav > ul > li > p{
     right: 160px;
 }
 /* --------------------------------------------------------- */
-main{
+.itens{
+    margin-top: 50px;
+    width: 1230px;
+    height: 480px;
+    background-color: #f38181;
+}
+.produto{
+    display: inline-block;
+    width: 330px;
+    height: 480px;
+    background-color: aquamarine;
+}
+.produto > img{
+
+}
+/* --------------------------------------------------------- */
+.sec-tenis{
     position: absolute;
     width: 865px;
-    height: 690px;
-    left: 500px;
-    top: 0px;
+    height: 590px;
+    left: 470px;
+    top: 2%;
 
     background: #C4C4C4;
 }
 .tenisAmpliado{
-    position: absolute;
     width: 597px;
-    height: 450px;
+    height: 430px;
     right: 146px;
-    top: 100px;
+    position: absolute;   
+    background-color: #F5F5F5;
+}
+.tenisAmpliado img{
+    width: 597px;
+    height: 330px;
+    position: absolute;
+    top: 10%;
 }
 .opTenis{
     display: inline-block;
-    width: 860px;
-    height: 150px;
-
-    position: absolute;
-    bottom: 0px;
-}
-.tenis{
-    display: inline-block;
-    width: 200px;
-    height: 150px;
-    margin-left: 60px;
-}
-.tenis:hover{
-    background-color: #FF0000;;
-}
-.tenis > img{
-    width: 201px;
+    width: 765px;
     height: 140px;
 
     position: absolute;
-    top: -1px;
+    bottom: 0px;
+    padding-left: 100px;
+}
+.tenis{
+    display: inline-block;
+    width: 170px;
+    height: 140px;
+    margin-left: 30px;
+}
+.tenis:hover{
+    background-color: #ba8960;;
+}
+.tenis > img{
+    width: 170px;
+    height: 130px;
 }
 .preco{
     position: absolute;
     width: 357px;
     height: 420px;
     left: 65px;
-    top: 120px;
+    top: 50px;
 }
 .preco > h1{
     font-family: 'Roboto';
@@ -147,7 +181,7 @@ main{
     background-color: #FF0000;
 }
 .comprar > p{
-    padding-top: 20px;
+    padding-top: 10px;
     text-align: center;
 
     font-family: 'Roboto';
